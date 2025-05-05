@@ -1,0 +1,206 @@
+/* .footer {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    z-index: -1;
+    animation: rotate 15s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .footer-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff;
+    transform: translateX(5px);
+  }
+  
+  .bg-glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+  
+  .form-select {
+    color: #ffffff !important;
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .social-icon {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+  }
+  
+  .footer-link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff;
+  }
+  
+  .action-icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .action-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .modal-content {
+    background: #2c3e50 !important;
+    border: none !important;
+  }
+  
+  .modal-body .form-control {
+    color: #ffffff !important;
+  } */
+
+  .content-wrapper {
+    min-height: calc(100vh - 300px); /* Adjust based on footer height */
+    padding-bottom: 60px; /* Space for footer */
+    background: #ffffff; /* Match your white background */
+  }
+  
+  .footer {
+    background: linear-gradient(135deg, #34495e, #2c3e50); /* Darker gradient for white background */
+    color: #ffffff;
+    position: relative;
+    z-index: 1000; /* Ensure it stays above other content */
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%); /* Lighter radial effect */
+    z-index: -1;
+    animation: rotate 15s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .footer-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff;
+    transform: translateX(5px);
+  }
+  
+  .bg-glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+  
+  .form-select {
+    color: #ffffff !important;
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .social-icon {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+  }
+  
+  .footer-link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff;
+  }
+  
+  .action-icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .action-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .modal-content {
+    background: #34495e !important; /* Matches footer gradient */
+    border: none !important;
+  }
+  
+  .modal-body .form-control {
+    color: #ffffff !important;
+  }

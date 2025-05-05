@@ -1,0 +1,22 @@
+
+
+.pricing-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-width: 2px;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 123, 255, 0.2);
+  }
+  
+  .highlight-card {
+    background-color: #e9f5ff;
+    border: 2px solid #007bff;
+  }
+  
+  .card-price {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  

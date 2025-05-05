@@ -1,0 +1,100 @@
+.navbar {
+  background: linear-gradient(90deg, #2c3e50, #3498db);
+  padding: 1rem 2rem;
+  transition: all 0.3s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.btn-outline-light {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: #ffffff !important;
+}
+
+.btn-primary {
+  background: #e74c3c !important;
+  border: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-primary:hover {
+  background: #c0392b !important;
+  transform: translateY(-2px);
+}
+
+.dropdown-menu {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 0;
+}
+
+.dropdown-item {
+  color: #ffffff !important;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: translateX(5px);
+}
+
+.bg-glass {
+  background: rgba(11, 78, 145, 0.8);
+}
